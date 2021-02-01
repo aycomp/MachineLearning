@@ -1,0 +1,24 @@
+hw1.py file contains required python codes.
+report.pdf file contains measured hyperparameter values.
+
+
+#### A quick summary about hw1.py
+
+NOTE: Required parameters and hyperparameters could be set by using the lines between 14 and 22.  
+
+1-Program starts with __main__ function
+2-x_train, y_train values are initialized with the values gathered from the images in train_set and train_set_label.txt
+3-normalization is also done in step 2, by using keras functionalities.(in load_data function)
+4-y_train converted into one_hot_encoding
+5-x_train, and y_train converted into numpy array
+6-model created according to the steps mentioned in report.tex
+7-model.fit - validation data created from training data according to the 0.20 ratio
+8-required graphs for accuracy and loss has been drawn into the graphs, accuracy and loss calculated
+9-same steps described in 1,2, and 3 done for the test data
+10-model evaluation part created with the test data which we prepared in step 7
+11-There is a prediction part, starting from line 142 (it is commented out, but if required,(it can be used by opening the comment lines) and it is predicting the tshirt color which is given with an index(img_index_to_predict)
+
+
+
+
+
